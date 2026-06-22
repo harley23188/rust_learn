@@ -52,6 +52,6 @@ fn main() {
     // let spaces = spaces.len();
     // println!("spaces：{}", spaces)
     // 6.3 这里会报错，因为spaces已经定义为字符串了
-    // let mut spaces = "   ";
-    // spaces = spaces.len();
+    let mut spaces = "   ";
+    spaces = spaces.len();
 }
